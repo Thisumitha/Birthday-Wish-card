@@ -127,7 +127,7 @@ let balloonCount = 0;
 function createBalloon() {
   if (balloonCount >= 10) return;
   const balloon = document.createElement("img");
-  balloon.src = "./assets/balloon.png";
+  balloon.src = "./assets/bal2.png";
   balloon.className = "balloon";
   balloon.style.left = Math.random() * 100 + "vw";
   balloon.style.setProperty('--float-x', `${Math.random() * 200 - 100}px`);
